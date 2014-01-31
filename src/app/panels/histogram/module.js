@@ -761,7 +761,7 @@ function (angular, app, $, _, kbn, moment, timeSeries, numeral) {
             return "%Y-%m-%d";
           }
           if(_int >= 60) {
-            return "%H:%M<br>%m-%d";
+            return "%H:%M<br>%d-%m";
           }
 
           return "%H:%M:%S";
